@@ -15,9 +15,12 @@
 SoftwareSerial s(D6,D5);
 #include <ArduinoJson.h>
 
-const int LED1red=5;     //D1          const int LED1green=4;   //D2
-const int LED2red=0;     //D3          const int LED2green=2;   //D4
-const int LED3red=13;    //D7          const int LED3green=15;  //D8
+const int LED1red=5;     //D1          
+const int LED1green=4;   //D2
+const int LED2red=0;     //D3          
+const int LED2green=2;   //D4
+const int LED3red=13;    //D7          
+const int LED3green=15;  //D8
 
 int avail=3;
 int occ=0;
